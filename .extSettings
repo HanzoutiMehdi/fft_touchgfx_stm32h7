@@ -1,0 +1,7 @@
+[ProjectFiles]
+HeaderPath=../Drivers/BSP/Components/Common;../Drivers/BSP/STM32H750B-DK
+[Groups]
+Drivers/BSP/STM32H750B-DK=../Drivers/BSP/STM32H750B-DK/stm32h750b_discovery_bus.c;../Drivers/BSP/STM32H750B-DK/stm32h750b_discovery_sdram.c;../Drivers/BSP/STM32H750B-DK/stm32h750b_discovery_qspi.c;../Drivers/BSP/STM32H750B-DK/stm32h750b_discovery_ts.c
+Drivers/BSP/Components=../Drivers/BSP/Components/mt25tl01g/mt25tl01g.c;../Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.c;../Drivers/BSP/Components/ft5336/ft5336.c;../Drivers/BSP/Components/ft5336/ft5336_reg.c
+Application/User/TouchGFX/target=../TouchGFX/target/CortexMMCUInstrumentation.cpp
+[Others]

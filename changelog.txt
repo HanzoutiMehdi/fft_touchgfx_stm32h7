@@ -1,0 +1,66 @@
+3.0.18
+- Updated to STM32CubeMX 6.12.0
+- Updated to Firmware Package FW_H7 1.11.2
+
+3.0.17
+- Updated to TouchGFX 4.24.0
+- Disable semi-hosting functionality for Keil 6 project, to allow execution without a debugger connected
+- Remove unused BSP driver files
+- Remove incorrect pin assignment of PA2 as LCD_RESET
+
+3.0.16
+- Updated to STM32CubeMX 6.11.0
+
+3.0.15
+- Upgraded to TouchGFX 4.23.0
+- Upgraded to STM32CubeMX 6.10.0
+- Switch video buffer strategy to "Direct to Framebuffer"
+- Enabled support for vector fonts
+
+3.0.14
+- Updated to STM32CubeMX 6.9.1
+- Updated to Firmware Package FW_H7 1.11.1
+
+3.0.13
+- Upgraded to TouchGFX 4.22.0
+
+3.0.12
+- Increased I2C4 frequency from 100 kHz to 400 kHz, to speed up reading of touch panel (lower MCU load)
+- Upgraded to STM32CubeMX 6.8.0
+
+3.0.11
+- Upgraded to TouchGFX 4.21.0
+- Upgraded to STM32CubeMX 6.7.0
+- Upgraded to Firmware Package FW_H7 1.11.0
+
+3.0.10
+- Moved Framebuffers in SDRAM
+- Added Readme
+
+3.0.9
+- Upgraded to TouchGFX 4.20.0
+
+3.0.8
+- Upgraded to TouchGFX 4.19.1
+- Upgraded to STM32CubeMX 6.5.0
+- Upgraded to Firmware Package FW_H7 1.10.0
+- Added GPIO pins (VSYNC_FREQ, RENDER_TIME, FRAME_RATE, MCU_ACTIVE) for performance testing 
+
+3.0.7
+- Upgraded to STM32CubeMX 6.4.0
+- Upgraded to TouchGFX 4.18.1
+- Upgraded to Firmware Package FW_H7 1.9.1
+
+3.0.6
+- Video Support for both HW and SW added
+- Updated to handle .xml text file instead of .xlsx 
+
+3.0.5
+- Added Animation Storage
+- Upgraded to STM32CubeMX 6.3.0
+
+3.0.4
+- Upgraded to TouchGFX 4.17.0
+- Upgraded to STM32CubeMX 6.2.1
+- Upgraded to Firmware Package FW_H7 1.9.0
+- Added DefaultTask to allow IP integration out of STM32CubeMX

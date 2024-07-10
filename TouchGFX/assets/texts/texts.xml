@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_1R09" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">Input Signal = Signal1+Signal2</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y90V" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_1D8L" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_CYFP" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">Signal 1 =&lt;value&gt; sin(2*PI*&lt;value&gt;)</Translation>
+      </Text>
+      <Text Id="__SingleUse_3FJM" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">Signal 2 = 70 sin(2*PI*30)</Translation>
+      </Text>
+      <Text Id="__SingleUse_D2DA" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">Signal 1 Amplitude</Translation>
+      </Text>
+      <Text Id="__SingleUse_85AD" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">Signal 1 Freq</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q2SO" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Amp</Translation>
+      </Text>
+      <Text Id="__SingleUse_3LFC" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Attenatuation %</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y99U" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Freq (Hz)</Translation>
+      </Text>
+      <Text Id="__SingleUse_PUUP" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Amp</Translation>
+      </Text>
+      <Text Id="__SingleUse_9WTH" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_EW2Q" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_9GHM" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_BDWX" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_53S2" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_RWIL" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_23UD" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q31N" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_2Q3K" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_XCQB" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_LTQ3" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_ERPR" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_88ET" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_RYMQ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y637" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_JNG9" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_8DV9" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_HWZJ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_FTJQ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_AID8" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0YVN" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_6MXW" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0LD8" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_M62A" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ISHC" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_T5US" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="fr" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_5Q4E" Alignment="Right" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_MDR8" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_1SN0" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">FFT</Translation>
+      </Text>
+      <Text Id="__SingleUse_YMFI" Alignment="Right" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_759Y" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_S1OE" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Input Signal</Translation>
+      </Text>
+      <Text Id="__SingleUse_UY7K" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Filtred Signal</Translation>
+      </Text>
+      <Text Id="__SingleUse_MFVA" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Back</Translation>
+      </Text>
+      <Text Id="__SingleUse_YKND" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">FFT Project</Translation>
+      </Text>
+      <Text Id="__SingleUse_KNWG" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Exit</Translation>
+      </Text>
+      <Text Id="__SingleUse_DDHE" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Signal3</Translation>
+      </Text>
+      <Text Id="__SingleUse_D5JF" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Signal2</Translation>
+      </Text>
+      <Text Id="__SingleUse_PXIP" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Configuration</Translation>
+      </Text>
+      <Text Id="__SingleUse_J55X" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Filtred Signal</Translation>
+      </Text>
+      <Text Id="__SingleUse_FYN2" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Input Signal = Signal1+Signal2</Translation>
+      </Text>
+      <Text Id="__SingleUse_II7G" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_XENZ" Alignment="Right" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZLHO" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">FFT Project</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="8" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" />
+    <Typography Id="Typography_01" Font="CALIST.TTF" Size="17" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_02" Font="verdana.ttf" Size="12" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

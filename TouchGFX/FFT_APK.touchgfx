@@ -1,0 +1,1435 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 272
+          },
+          {
+            "Type": "Button",
+            "Name": "fft",
+            "X": 53,
+            "Y": 233,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_action.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_action.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 179,
+            "Width": 113,
+            "Height": 24,
+            "TextId": "__SingleUse_ZLHO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 155,
+              "Green": 204,
+              "Blue": 178
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 242,
+            "Y": 24,
+            "Width": 238,
+            "Height": 18,
+            "TextId": "__SingleUse_FYN2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_2",
+            "Y": 197,
+            "Width": 189,
+            "Height": 15,
+            "TextId": "__SingleUse_1R09",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_2_1",
+            "X": 89,
+            "Y": 245,
+            "Width": 27,
+            "Height": 18,
+            "TextId": "__SingleUse_1SN0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 26,
+              "Green": 22,
+              "Blue": 22
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1",
+            "X": 303,
+            "Y": 148,
+            "Width": 98,
+            "Height": 18,
+            "TextId": "__SingleUse_J55X",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 209,
+              "Green": 161,
+              "Blue": 161
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "Sinput",
+            "X": 209,
+            "Y": 39,
+            "Width": 265,
+            "Height": 109,
+            "DataSeed": 1174304238,
+            "NumberOfValues": 100,
+            "MaxY": 150.0,
+            "MinY": -150.0,
+            "Precision": "1",
+            "UseCustomVisibleDataPointRange": true,
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 13,
+            "LabelSizeLeft": 23,
+            "GraphType": "GraphWrapOverwrite",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 99,
+                  "Green": 219
+                }
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 194,
+                "Green": 205,
+                "Blue": 209
+              },
+              "Interval": 30.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 225,
+                "Green": 232,
+                "Blue": 235
+              },
+              "TextId": "__SingleUse_II7G",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 30.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 245,
+                "Green": 245,
+                "Blue": 245
+              },
+              "TextId": "__SingleUse_XENZ",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "OutSign",
+            "X": 209,
+            "Y": 160,
+            "Width": 265,
+            "Height": 112,
+            "DataSeed": 1174304238,
+            "NumberOfValues": 100,
+            "MaxY": 150.0,
+            "MinY": -150.0,
+            "Precision": "1",
+            "UseCustomVisibleDataPointRange": true,
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 13,
+            "LabelSizeLeft": 23,
+            "GraphType": "GraphWrapOverwrite",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 217,
+                  "Green": 108
+                }
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 247,
+                "Green": 251,
+                "Blue": 252
+              },
+              "Interval": 20.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 250,
+                "Green": 250,
+                "Blue": 250
+              },
+              "TextId": "__SingleUse_MDR8",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 230,
+                "Green": 230,
+                "Blue": 230
+              },
+              "TextId": "__SingleUse_5Q4E",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "Y": 24,
+            "Width": 377,
+            "Height": 261,
+            "Visible": false,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3",
+                "Width": 377,
+                "Height": 323,
+                "Color": {
+                  "Red": 194,
+                  "Green": 188,
+                  "Blue": 188
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textArea1_2_1_2_1",
+                "X": 184,
+                "Y": 37,
+                "Width": 56,
+                "Height": 18,
+                "TextId": "__SingleUse_DDHE",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 30,
+                  "Green": 31,
+                  "Blue": 30
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textArea1_2_1_2",
+                "X": 8,
+                "Y": 37,
+                "Width": 56,
+                "Height": 18,
+                "TextId": "__SingleUse_D5JF",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 30,
+                  "Green": 31,
+                  "Blue": 30
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textArea1_2",
+                "X": 78,
+                "Width": 101,
+                "Height": 18,
+                "TextId": "__SingleUse_PXIP",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 30,
+                  "Green": 31,
+                  "Blue": 30
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "Button",
+                "Name": "ExitCfg",
+                "X": 7,
+                "Y": 201,
+                "Width": 110,
+                "Height": 50,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_pressed.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_action.png",
+                "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\tiny_round_action.json"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textArea1_2_1_1_1",
+                "X": 46,
+                "Y": 217,
+                "Width": 28,
+                "Height": 18,
+                "TextId": "__SingleUse_KNWG",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 30,
+                  "Green": 31,
+                  "Blue": 30
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "bSignal2",
+                "X": 74,
+                "Y": 29,
+                "Width": 62,
+                "Height": 34,
+                "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_off_dark.png",
+                "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_on_action.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "bSignal3",
+                "X": 261,
+                "Y": 29,
+                "Width": 62,
+                "Height": 34,
+                "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_off_dark.png",
+                "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_on_action.png"
+              }
+            ]
+          },
+          {
+            "Type": "Slider",
+            "Name": "slider1_2",
+            "X": -11,
+            "Y": 93,
+            "Width": 220,
+            "Height": 32,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_small.png",
+            "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_small.png",
+            "Indicator": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_round_light.png",
+            "BackgroundX": 16,
+            "BackgroundY": 11,
+            "IndicatorMax": 188,
+            "ValueMax": 100,
+            "InitValue": 100
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Freq_vale_2",
+            "X": 7,
+            "Y": 24,
+            "Width": 78,
+            "Height": 15,
+            "TextId": "__SingleUse_85AD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 240,
+              "Blue": 235
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Freq_vale_2_2",
+            "Y": 160,
+            "Width": 165,
+            "Height": 15,
+            "TextId": "__SingleUse_3FJM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 240,
+              "Blue": 235
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Freq_vale_2_2_1",
+            "Y": 133,
+            "Width": 289,
+            "Height": 15,
+            "TextId": "__SingleUse_CYFP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 240,
+              "Blue": 235
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_1D8L",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_Y90V",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Freq_vale_2_1",
+            "X": 8,
+            "Y": 82,
+            "Width": 112,
+            "Height": 15,
+            "TextId": "__SingleUse_D2DA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 240,
+              "Blue": 235
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Slider",
+            "Name": "Freq1Slider",
+            "X": -2,
+            "Y": 42,
+            "Width": 209,
+            "Height": 33,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_small.png",
+            "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_small.png",
+            "Indicator": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_round_light.png",
+            "BackgroundX": 9,
+            "BackgroundY": 10,
+            "IndicatorPos": 1,
+            "IndicatorMax": 86,
+            "ValueMax": 80,
+            "ValueMin": 1,
+            "InitValue": 5
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": -2,
+            "Y": 182,
+            "Width": 227,
+            "Height": 15,
+            "Color": {
+              "Red": 95,
+              "Green": 118,
+              "Blue": 245
+            },
+            "Alpha": 243,
+            "StartX": 5.0,
+            "StartY": 4.1,
+            "EndX": 216.2,
+            "EndY": 4.0,
+            "LineWidth": 4.2,
+            "LineEndingStyle": "Round"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ExitCfg"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "container1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bSignal2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Signal2_cfg"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bSignal3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Signal3_cfg"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fft"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "Freq1Slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SliderFreqCalback"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "slider1_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "AmplitudeCalback"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "DynamicGraph",
+            "Name": "Sinput",
+            "X": 179,
+            "Y": 51,
+            "Width": 295,
+            "Height": 103,
+            "DataSeed": 1174304238,
+            "NumberOfValues": 100,
+            "MaxY": 150.0,
+            "MinY": -150.0,
+            "Precision": "1",
+            "UseCustomVisibleDataPointRange": true,
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "LabelSizeBottom": 13,
+            "LabelSizeLeft": 23,
+            "GraphType": "GraphWrapClear",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 99,
+                  "Green": 219
+                }
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 194,
+                "Green": 205,
+                "Blue": 209
+              },
+              "Interval": 30.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 225,
+                "Green": 232,
+                "Blue": 235
+              },
+              "TextId": "__SingleUse_759Y",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 30.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 245,
+                "Green": 245,
+                "Blue": 245
+              },
+              "TextId": "__SingleUse_YMFI",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 54,
+              "Green": 51,
+              "Blue": 51
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 248,
+            "Y": 143,
+            "Width": 98,
+            "Height": 18,
+            "TextId": "__SingleUse_UY7K",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 104,
+              "Green": 173,
+              "Blue": 118
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_3",
+            "X": 265,
+            "Y": 20,
+            "Width": 92,
+            "Height": 18,
+            "TextId": "__SingleUse_S1OE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Button",
+            "Name": "Back",
+            "X": 6,
+            "Y": 213,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_action.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\tiny_round_action.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_2",
+            "X": 43,
+            "Y": 229,
+            "Width": 36,
+            "Height": 18,
+            "TextId": "__SingleUse_MFVA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 26,
+              "Green": 22,
+              "Blue": 22
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 167,
+            "Y": -2,
+            "Width": 113,
+            "Height": 24,
+            "TextId": "__SingleUse_YKND",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 204,
+              "Green": 193,
+              "Blue": 155
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "graph1",
+            "X": 116,
+            "Y": 30,
+            "Width": 351,
+            "Height": 112,
+            "DataSeed": -665275397,
+            "NumberOfValues": 100,
+            "MaxX": 50.0,
+            "PrecisionX": "0.1",
+            "MaxY": 10000.0,
+            "MinY": -1.0,
+            "PrecisionY": "0.001",
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 12,
+            "LabelSizeLeft": 4,
+            "PaddingTop": 4,
+            "PaddingLeft": 11,
+            "GraphDrawers": [
+              {
+                "Type": "HistogramDrawer",
+                "BarWidth": 2,
+                "BarOffset": 2,
+                "Color": {
+                  "Red": 209,
+                  "Green": 128,
+                  "Blue": 152
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 228,
+                "Green": 235,
+                "Blue": 237
+              },
+              "Interval": 5.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 2.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 235,
+                "Green": 235,
+                "Blue": 235
+              },
+              "TextId": "__SingleUse_0LD8",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            }
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "graph2",
+            "X": 120,
+            "Y": 154,
+            "Width": 354,
+            "Height": 115,
+            "DataSeed": -665275397,
+            "NumberOfValues": 129,
+            "MaxX": 51.0,
+            "PrecisionX": "0.1",
+            "MaxY": 10000.0,
+            "PrecisionY": "0.1",
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 12,
+            "PaddingTop": 4,
+            "PaddingLeft": 11,
+            "GraphDrawers": [
+              {
+                "Type": "HistogramDrawer",
+                "BarWidth": 2,
+                "BarOffset": 2,
+                "Color": {
+                  "Red": 128,
+                  "Green": 207,
+                  "Blue": 149
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 233,
+                "Green": 242,
+                "Blue": 245
+              },
+              "Interval": 5.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 2.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 242,
+                "Green": 244,
+                "Blue": 245
+              },
+              "TextId": "__SingleUse_M62A",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "camp1",
+            "X": 7,
+            "Y": 29,
+            "Width": 47,
+            "Height": 16,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3",
+                "X": 4,
+                "Width": 43,
+                "Height": 16,
+                "Color": {
+                  "Red": 101,
+                  "Green": 227,
+                  "Blue": 230
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "amp1",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_T5US",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_ISHC",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cfreq1",
+            "X": 66,
+            "Y": 29,
+            "Width": 47,
+            "Height": 16,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_3",
+                "X": 4,
+                "Width": 43,
+                "Height": 16,
+                "Color": {
+                  "Red": 101,
+                  "Green": 227,
+                  "Blue": 230
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "freq1",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_ERPR",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_LTQ3",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cfreq2",
+            "X": 66,
+            "Y": 50,
+            "Width": 47,
+            "Height": 16,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_3_1",
+                "X": 4,
+                "Width": 43,
+                "Height": 16,
+                "Color": {
+                  "Red": 101,
+                  "Green": 227,
+                  "Blue": 230
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "freq2",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_XCQB",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_2Q3K",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cfreq3",
+            "X": 66,
+            "Y": 68,
+            "Width": 47,
+            "Height": 16,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_3_1_1",
+                "X": 4,
+                "Width": 43,
+                "Height": 16,
+                "Color": {
+                  "Red": 101,
+                  "Green": 227,
+                  "Blue": 230
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "freq3",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_Q31N",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_23UD",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cfreq1_1",
+            "X": 66,
+            "Y": 151,
+            "Width": 47,
+            "Height": 16,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_3_2",
+                "X": 4,
+                "Width": 43,
+                "Height": 16,
+                "Color": {
+                  "Red": 101,
+                  "Green": 227,
+                  "Blue": 230
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "freq1_1",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_EW2Q",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_9WTH",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cfreq2_1",
+            "X": 66,
+            "Y": 172,
+            "Width": 47,
+            "Height": 16,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_3_1_2",
+                "X": 4,
+                "Width": 43,
+                "Height": 16,
+                "Color": {
+                  "Red": 101,
+                  "Green": 227,
+                  "Blue": 230
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "freq2_1",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_BDWX",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_9GHM",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cfreq3_1",
+            "X": 66,
+            "Y": 190,
+            "Width": 47,
+            "Height": 16,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_3_1_1_1",
+                "X": 4,
+                "Width": 43,
+                "Height": 16,
+                "Color": {
+                  "Red": 101,
+                  "Green": 227,
+                  "Blue": 230
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "freq3_1",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_RWIL",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_53S2",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "camp2",
+            "X": 7,
+            "Y": 49,
+            "Width": 54,
+            "Height": 17,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_1",
+                "X": 4,
+                "Width": 43,
+                "Height": 17,
+                "Color": {
+                  "Red": 101,
+                  "Green": 227,
+                  "Blue": 230
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "amp2",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_6MXW",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_0YVN",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "camp3",
+            "X": 7,
+            "Y": 67,
+            "Width": 54,
+            "Height": 16,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_1_1",
+                "X": 5,
+                "Width": 43,
+                "Height": 16,
+                "Color": {
+                  "Red": 101,
+                  "Green": 227,
+                  "Blue": 230
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "amp3",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_AID8",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_FTJQ",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "campO1",
+            "X": 7,
+            "Y": 149,
+            "Width": 43,
+            "Height": 17,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_2",
+                "X": 4,
+                "Width": 42,
+                "Height": 15,
+                "Color": {
+                  "Red": 94,
+                  "Green": 219,
+                  "Blue": 148
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "amp1_1",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_RYMQ",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_88ET",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "campO2",
+            "X": 7,
+            "Y": 169,
+            "Width": 44,
+            "Height": 17,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_1_2",
+                "X": 4,
+                "Width": 43,
+                "Height": 18,
+                "Color": {
+                  "Red": 75,
+                  "Green": 201,
+                  "Blue": 159
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "amp2_1",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_JNG9",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_Y637",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "campO3",
+            "X": 7,
+            "Y": 187,
+            "Width": 43,
+            "Height": 17,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box3_1_1_1",
+                "X": 4,
+                "Width": 44,
+                "Height": 17,
+                "Color": {
+                  "Red": 73,
+                  "Green": 196,
+                  "Blue": 141
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "amp3_1",
+                "X": 5,
+                "Y": 4,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_HWZJ",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_8DV9",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 20,
+            "Y": 13,
+            "Width": 23,
+            "Height": 12,
+            "TextId": "__SingleUse_PUUP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 235,
+              "Blue": 235
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 65,
+            "Y": 13,
+            "Width": 49,
+            "Height": 12,
+            "TextId": "__SingleUse_Y99U",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 235,
+              "Blue": 235
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_2",
+            "X": 18,
+            "Y": 134,
+            "Width": 23,
+            "Height": 12,
+            "TextId": "__SingleUse_Q2SO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 235,
+              "Blue": 235
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1_1",
+            "X": 55,
+            "Y": 134,
+            "Width": 83,
+            "Height": 12,
+            "TextId": "__SingleUse_3LFC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 235,
+              "Blue": 235
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerGraphClicked",
+              "TriggerComponent": "graph1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "FFT_InputCallback"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerGraphClicked",
+              "TriggerComponent": "graph2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "FFT_OutputCallback"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "FFT_APK",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H750B-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.24.0",
+  "CreatedBy": "4.24.0"
+}
