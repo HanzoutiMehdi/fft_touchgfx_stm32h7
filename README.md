@@ -12,7 +12,7 @@ The project involves generating and processing signals, applying FIR filtering, 
 
 ### Input Signals
 - Software-generated signals using the sine function.
-- Static signals described as \(70 \sin(2\pi \times 30)\), corresponding to a 30Hz signal.
+- Static signals described as (70*sin(2*pi*30), corresponding to a 30Hz signal.
 
 ### Sampling Time
 - **4ms** for signal generation and processing.
@@ -56,7 +56,6 @@ The `fir_filtre.m` script generates FIR coefficients using Octave. After executi
 3. Build and flash the project to your STM32 microcontroller.
 
 ### Running the Project
-1. Run the Octave script `fir_filtre.m` to generate FIR coefficients.
 2. Flash the generated firmware to the STM32 microcontroller.
 3. The TouchGFX interface will display the input and output signals along with their FFT results.
 
