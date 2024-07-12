@@ -72,10 +72,6 @@ int main(void)
   /* Init scheduler */
   osKernelInitialize();
 
-  /* Create the thread(s) */
-  /* creation of defaultTask */
-  defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
-
   /* creation of GUITask */
   GUITaskHandle = osThreadNew(TouchGFX_Task, NULL, &GUITask_attributes);
 
@@ -540,27 +536,8 @@ static void MX_GPIO_Init(void)
   /* USER CODE END MX_GPIO_Init_2 */
 }
 
-/* USER CODE BEGIN 4 */
 
-/* USER CODE END 4 */
 
-/* USER CODE BEGIN Header_StartDefaultTask */
-/**
- * @brief  Function implementing the defaultTask thread.
- * @param  argument: Not used
- * @retval None
- */
-/* USER CODE END Header_StartDefaultTask */
-void StartDefaultTask(void *argument)
-{
-  /* USER CODE BEGIN 5 */
-  /* Infinite loop */
-  for (;;)
-  {
-    osDelay(100);
-  }
-  /* USER CODE END 5 */
-}
 
 /* MPU Configuration */
 
